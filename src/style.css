@@ -5,5 +5,49 @@
 }
 
 html {
+  font-family: 'Zilla Slab', serif;
   font-size: 62.5%;
+}
+
+/* Styles to welcome section */
+
+.welcome {
+  height: 100vh;
+}
+
+.welcome__header {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+.welcome__header-dots {
+  display: flex;
+  gap: 7px;
+}
+
+.welcome__header-dots .dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+}
+
+.welcome__header-dots .yellow {
+  background-color: #FFFF00;
+}
+
+.welcome__header-dots .pink {
+  background-color: #FF416C;
+}
+
+.welcome__header-dots .light-blue {
+  background-color: #A2E4F2;
+}
+
+.welcome__header-text {
+  text-align: center;
+}
+
+.welcome__title {
+  height: 95vh;
 }
