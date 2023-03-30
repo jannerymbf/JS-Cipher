@@ -38,14 +38,14 @@
         </div>
         <h4 class="cipher__header-text text-header">Time to cipher</h4>
       </header>
-      <main>
-        <textarea name="" id="message" cols="30" rows="10"></textarea>
-        <section>
-          <input type="number" id="offset">
+      <main class="cipher__main">
+        <textarea class="cipher__main-message" name="message" id="message" cols="20" rows="5" placeholder="Write your message here..."></textarea>
+        <section class="cipher__main-controls">
+          <input type="number" id="offset" required>
           <button id="code">Encode</button>
           <button id="decode">Decode</button>
         </section>
-        <p id="result">Result</p>
+        <p class="cipher__main-product" id="result">Result</p>
       </main>
     </section>
     <script src="index.js" type="module"></script>
