@@ -13,6 +13,7 @@ html {
   --main-yellow: #FFFF00;
   --main-pink: #FF416C;
   --main-light-blue: #A2E4F2;
+  --main-white: #FFF
 }
 
 /* Styles to welcome section */
@@ -99,4 +100,25 @@ html {
 
 .welcome__title-text h2 {
   color: var(--main-pink);
+}
+
+.welcome__title-btn {
+  width: 70px;
+  height: 30px;
+  padding-top: 2px;
+  border-radius: 8px;
+  background-color: var(--main-white);
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--main-light-blue);
+  text-align: center;
+}
+
+.welcome__title-btn:link {
+  color: var(--main-light-blue);
+}
+
+.welcome__title-btn:visited {
+  color: var(--main-light-blue);
 }
