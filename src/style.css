@@ -9,15 +9,25 @@ html {
   font-size: 62.5%;
 }
 
+:root {
+  --main-yellow: #FFFF00;
+  --main-pink: #FF416C;
+  --main-light-blue: #A2E4F2;
+}
+
 /* Styles to welcome section */
 
 .welcome {
+  width: 100%;
   height: 100vh;
 }
 
 .welcome__header {
+  width: 100%;
   height: 5vh;
+  padding: 15px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -33,19 +43,22 @@ html {
 }
 
 .welcome__header-dots .yellow {
-  background-color: #FFFF00;
+  background-color: var(--main-yellow);
 }
 
 .welcome__header-dots .pink {
-  background-color: #FF416C;
+  background-color: var(--main-pink);
 }
 
 .welcome__header-dots .light-blue {
-  background-color: #A2E4F2;
+  background-color: var(--main-light-blue);
 }
 
 .welcome__header-text {
   text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--main-light-blue);
 }
 
 .welcome__title {
