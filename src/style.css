@@ -63,4 +63,9 @@ html {
 
 .welcome__title {
   height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-light-blue);
 }
