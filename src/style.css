@@ -269,4 +269,36 @@ html {
   text-align: center;
 }
 
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 64%;
+  }
+
+  .cipher__main {
+    padding: 30px;
+    flex-direction: row;
+  }
+
+  .cipher__main-message {
+    height: 400px;
+  }
+
+  .cipher__main-output {
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  html {
+    font-size: 67%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+
 
