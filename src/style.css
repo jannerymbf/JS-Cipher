@@ -248,5 +248,20 @@ html {
   color: var(--main-light-blue);
 }
 
+.cipher__main-product {
+  width: 90%;
+  height: 150px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #FFFEC2;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--main-light-blue);
+  text-align: center;
+}
+
 
 
