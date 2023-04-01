@@ -13,6 +13,8 @@ html {
   --main-yellow: #FFFF00;
   --main-light-yellow: #FFFEC2;
   --main-pink: #FF416C;
+  --main-light-pink: #F9D2E4;
+  --main-blue: #DEF7FF;
   --main-light-blue: #A2E4F2;
   --main-white: #FFF
 }
@@ -215,6 +217,35 @@ html {
 
 .main-controls__offset input:focus {
   outline: 2px solid var(--main-light-blue);
+}
+
+.main-controls__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.main-controls__buttons button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: var(--main-white);
+  font-family: 'Zilla Slab', serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.main-controls__buttons .main-controls__buttons--encode {
+  border: 2px solid var(--main-pink);
+  background-color: var(--main-light-pink);
+  color: var(--main-pink);
+}
+
+.main-controls__buttons .main-controls__buttons--decode {
+  border: 2px solid var(--main-light-blue);
+  background-color: var(--main-blue);
+  color: var(--main-light-blue);
 }
 
 
