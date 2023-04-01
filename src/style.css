@@ -11,6 +11,7 @@ html {
 
 :root {
   --main-yellow: #FFFF00;
+  --main-light-yellow: #FFFEC2;
   --main-pink: #FF416C;
   --main-light-blue: #A2E4F2;
   --main-white: #FFF
@@ -156,6 +157,7 @@ html {
 }
 
 .cipher__main-message {
+  width: 90%;
   padding: 20px;
   border: 5px solid var(--main-light-blue);
   border-radius: 20px;
@@ -174,6 +176,45 @@ html {
 .cipher__main-message::selection {
   background-color: var(--main-light-blue);
   color: var(--main-white)
+}
+
+.cipher__main-controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.main-controls__offset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.main-controls__offset label {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--main-light-blue);
+}
+
+.main-controls__offset input {
+  width: 100px;
+  height: 35px;
+  padding: 3px;
+  border: none;
+  border-radius: 30px;
+  background-color: var(--main-pink);
+  font-family: 'Zilla Slab', serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--main-white);
+  text-align: center;
+}
+
+.main-controls__offset input:focus {
+  outline: 2px solid var(--main-light-blue);
 }
 
 
