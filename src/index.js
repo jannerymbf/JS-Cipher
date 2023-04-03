@@ -16,8 +16,10 @@ codeBtn.addEventListener('click', () => {
   } else {
     result.style.color = 'var(--main-light-blue)';
     result.innerHTML = cipher.encode(offset.value, message.value);
-    message.value = '';
-    offset.value = '';
+    setTimeout(() => {
+      message.value = '';
+      offset.value = '';
+    }, "3000")
   }
 })
 
@@ -29,7 +31,9 @@ decodeBtn.addEventListener('click', () => {
   } else {
     result.style.color = 'var(--main-light-blue)';
     result.innerHTML = cipher.decode(offset.value, message.value);
-    message.value = '';
-    offset.value = '';
+    setTimeout(() => {
+      message.value = '';
+      offset.value = '';
+    }, "3000")
   }
 })

@@ -161,6 +161,7 @@ html {
 .cipher__main-message {
   width: 90%;
   padding: 20px;
+  display: flex;
   border: 5px solid var(--main-light-blue);
   border-radius: 20px;
   resize: none;
